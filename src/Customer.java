@@ -10,7 +10,7 @@ public class Customer {
         this.order = new Order();  
     }
 
-    public void addToOrder(MenuItem item) { 
+    public void addToOrder(MenuItem item) {  // changed addMenuItemToOrder to addToOrder
         order.addItem(item);  // a method that takes in an instance of MenuItem item, then add it to the order
     }
 
@@ -19,3 +19,5 @@ public class Customer {
         order.printOrderDetails(); // a method that prints in the order details of the Customer
     }
 }
+
+\
