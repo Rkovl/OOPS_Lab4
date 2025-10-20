@@ -13,8 +13,8 @@ public class RestaurantApp {
         // Customer adds items to their order
         customer.addToOrder(pizza);  // Collaborating with MenuItem and Order
         customer.addToOrder(burger);
-        customer.addToOrder(soda);
-        
+        customer.addToOrder(soda); 
+        //testing git pull branch
         // Customer places the order
         customer.placeOrder();  // Collaborating with Order to show order summary
     }
